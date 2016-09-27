@@ -1,6 +1,6 @@
 <?php
 // URLizer service
-//require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
+require 'vendor/midgard/midgardmvc-helper-urlize/interface.php';
 if (isset($_GET['urlize'])) {
     $data = array();
     $data['from'] = $_GET['urlize'];
