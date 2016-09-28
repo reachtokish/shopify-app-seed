@@ -2,8 +2,8 @@
 
 
     require __DIR__.'/vendor/autoload.php';
-    use phpish\shopify;
-    require 'shopify.php';
+    // use phpish\shopify;
+    // require 'shopify.php';
 
     /* Define your APP`s key and secret*/
     define('SHOPIFY_API_KEY','0021234880477454f8c8b1cfae909122');
