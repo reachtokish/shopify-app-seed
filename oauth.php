@@ -30,6 +30,7 @@
 		$_SESSION['shop'] = $_GET['shop'];
 
 		echo 'App Successfully Installed!';
+		header('Location: get_products.php');
 	}
 	catch (shopify\ApiException $e)
 	{
