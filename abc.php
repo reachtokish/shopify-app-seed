@@ -6,6 +6,9 @@
       debug: false,
       forceRedirect: true
     });
+    ShopifyApp.ready(function(){
+  		alert("Ready");
+	});
   </script>
 
 
