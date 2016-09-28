@@ -1,10 +1,3 @@
-<script src="https://cdn.shopify.com/s/assets/external/app.js"></script>
-  <script type="text/javascript">
-    ShopifyApp.init({
-      apiKey: '65394bcb4a6a92f4f8c5220a8e5b7295'
-    });
-  </script>
-
 <?php
 
 	session_start();
@@ -37,16 +30,6 @@
 		$_SESSION['shop'] = $_GET['shop'];
 
 		echo 'App Successfully Installed!';
-?>
-		<script type="text/javascript">
-    ShopifyApp.init({
-      shopOrigin: 'https://pkds-2.myshopify.com'
-    });
-  </script>
-
-<?php
-
-
 	}
 	catch (shopify\ApiException $e)
 	{
