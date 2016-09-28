@@ -1,6 +1,8 @@
 <?php
 
+
     require __DIR__.'/vendor/autoload.php';
+    use phpish\shopify;
     require 'shopify.php';
 
     /* Define your APP`s key and secret*/
