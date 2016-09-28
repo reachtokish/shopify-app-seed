@@ -1,3 +1,12 @@
+<script src="https://cdn.shopify.com/s/assets/external/app.js"></script>
+  <script type="text/javascript">
+    ShopifyApp.init({
+      apiKey: 'YOUR_APP_API_KEY',
+      shopOrigin: 'https://CURRENT_LOGGED_IN_SHOP.myshopify.com'
+    });
+  </script>
+
+
 <?php 
 	session_start();
 
