@@ -10,7 +10,7 @@
 	print_r($_GET['signature']);
 
 	# Guard: http://docs.shopify.com/api/authentication/oauth#verification
-	shopify\is_valid_request($_GET, SHOPIFY_APP_SHARED_SECRET) or die('Invalid Request!! Request or redirect did not come from Shopify');
+	//shopify\is_valid_request($_GET, SHOPIFY_APP_SHARED_SECRET) or die('Invalid Request!! Request or redirect did not come from Shopify');
 
 
 	# Step 2: http://docs.shopify.com/api/authentication/oauth#asking-for-permission
