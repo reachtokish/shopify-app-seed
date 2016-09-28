@@ -7,7 +7,9 @@
       forceRedirect: true
     });
     ShopifyApp.ready(function(){
-  		ShopifyApp.Bar.loadingOff()
+  		ShopifyApp.Modal.alert("An alert message", function(result){
+  			alert("The modal was closed.");
+		});
 	});
   </script>
 
