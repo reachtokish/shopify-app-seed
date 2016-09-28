@@ -17,4 +17,4 @@
 
 	$shopify = shopify\client($_SESSION['shop'], SHOPIFY_APP_API_KEY, $_SESSION['oauth_token']);
 
-	echo $shopify;
+	echo 'Hello World..!!';
