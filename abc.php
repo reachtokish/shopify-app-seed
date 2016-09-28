@@ -7,7 +7,7 @@
       forceRedirect: true
     });
     ShopifyApp.ready(function(){
-  		alert("Ready");
+  		ShopifyApp.flashNotice("Unicorn was created successfully.");
 	});
   </script>
 
