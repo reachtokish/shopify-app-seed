@@ -1,8 +1,8 @@
 <script src="https://cdn.shopify.com/s/assets/external/app.js"></script>
   <script type="text/javascript">
     ShopifyApp.init({
-      apiKey: 'YOUR_APP_API_KEY',
-      shopOrigin: 'https://CURRENT_LOGGED_IN_SHOP.myshopify.com'
+      apiKey: '65394bcb4a6a92f4f8c5220a8e5b7295',
+      shopOrigin: 'https://pkds-2.myshopify.com'
     });
   </script>
 
