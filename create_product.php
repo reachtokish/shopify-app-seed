@@ -2,7 +2,9 @@
   <script type="text/javascript">
     ShopifyApp.init({
       apiKey: '65394bcb4a6a92f4f8c5220a8e5b7295',
-      shopOrigin: 'https://pkds-2.myshopify.com'
+      shopOrigin: 'https://pkds-2.myshopify.com',
+      debug: false,
+      forceRedirect: true
     });
   </script>
 
