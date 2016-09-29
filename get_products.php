@@ -23,7 +23,7 @@
 	{
 		# Making an API request can throw an exception
 		$products = $shopify('GET /admin/products.json', array('published_status'=>'published'));
-		print_r($products);
+		print_r('<pre>'.$products.'</pre>');
 	}
 	catch (shopify\ApiException $e)
 	{
